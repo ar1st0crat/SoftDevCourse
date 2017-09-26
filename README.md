@@ -10,11 +10,12 @@
 
 Акты:
 
-* [Осень - Документирование, SRS, git, рефакторинг](https://github.com/ar1st0crat/CppCourse/tree/master/Fall)
-* [Весна - Тестирование, TDD, BDD, NUnit, Moq, Selenium](https://github.com/ar1st0crat/CppCourse/tree/master/Spring)
+* [Осень - Документирование, SRS, git, рефакторинг](https://github.com/ar1st0crat/SoftDevCourse/tree/master/Fall)
+* [Весна - Тестирование, TDD, BDD, NUnit, Moq, Selenium](https://github.com/ar1st0crat/SoftDevCourse/tree/master/Spring)
 
 
-[Немного о курсаче](https://github.com/ar1st0crat/CppCourse/tree/master/CourseProject)
+
+[Немного о курсаче](https://github.com/ar1st0crat/SoftDevCourse/tree/master/CourseProject)
 
 
 ### Ресурсы
