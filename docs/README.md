@@ -1,1 +1,1 @@
-## [https://github.com/ar1st0crat/SoftDevCourse](https://github.com/ar1st0crat/SoftDevCourse)
+## [https://ar1st0crat.github.io/SoftDevCourse](https://ar1st0crat.github.io/SoftDevCourse)

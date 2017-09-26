@@ -15,7 +15,7 @@
 
 
 
-[Немного о курсаче](https://github.com/ar1st0crat/SoftDevCourse/tree/master/CourseProject)
+[Немного о курсаче](https://ar1st0crat.github.io/SoftDevCourse)
 
 
 ### Ресурсы
