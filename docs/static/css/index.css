@@ -63,6 +63,12 @@ h4 {
     border: 1px solid;
 }
 
+h5 {
+    color: white;
+    font-size: 16px;
+    margin: 12px;
+}
+
 .topics {
     padding: 10px;
     background-color: rgba(155, 155, 155, 0.6);
@@ -103,5 +109,33 @@ h4 {
 .requirement a {
     color: rgb(255, 255, 200);
     font-size: 14px;
+    margin: 7px;
     display: block;
+}
+
+.themes {
+    padding: 10px;
+    background-color: rgba(155, 155, 155, 0.6);
+    border-radius: 12px;
+    margin: 5px;
+    width: 520px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size:  18px;
+    text-align: center;
+}
+
+.themes span {
+    font-size: 14px;
+    color: #ffffd6;
+    display: block;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.themes .desc {
+    font-size: 12px;
+    color: white;
+    display: block;
+    margin: 8px;
 }
