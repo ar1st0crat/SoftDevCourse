@@ -22,7 +22,7 @@ namespace EquationSolvingTestProject
             double[] roots = _solver.Solve(1, 1, -6);
 
             // ASSERT
-            CollectionAssert.AreEquivalent(roots, new [] { 2.0, -3.0 });
+            CollectionAssert.AreEquivalent(new [] { 2.0, -3.0 }, roots);
 
             // we could also test:
 
@@ -37,7 +37,7 @@ namespace EquationSolvingTestProject
             double[] roots = _solver.Solve(1, 2, 1);
 
             // ASSERT
-            Assert.AreEqual(roots[0], -1);
+            Assert.AreEqual(-1, roots[0]);
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace EquationSolvingTestProject
             double[] roots = _solver.Solve(0, 1, 2);
 
             // ASSERT
-            Assert.AreEqual(roots[0], -2);
+            Assert.AreEqual(-2, roots[0]);
         }
 
         [TestMethod]
