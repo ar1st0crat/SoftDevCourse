@@ -10,9 +10,8 @@
 
 Акты:
 
-* [Осень - Документирование, SRS, git, рефакторинг](https://github.com/ar1st0crat/SoftDevCourse/tree/master/Fall)
-* [Весна - Тестирование, TDD, BDD, NUnit, Moq, Selenium](https://github.com/ar1st0crat/SoftDevCourse/tree/master/Spring)
-
+* [Осень классики - Документирование, SRS, git, рефакторинг](https://github.com/ar1st0crat/SoftDevCourse/tree/master/Fall)
+* [Весна эджайла - Тестирование, TDD, BDD, NUnit, Moq, Selenium](https://github.com/ar1st0crat/SoftDevCourse/tree/master/Spring)
 
 
 [Немного о курсаче](https://ar1st0crat.github.io/SoftDevCourse)
@@ -31,3 +30,4 @@
 - Рой Ошероув "Искусство автономного тестирования с примерами на C#", 2016
 - Джерард Месарош "Шаблоны тестирования xUnit: рефакторинг кода тестов", 2008
 - Grzegorz Gałęzowski ["Test-Driven Development. Extensive Tutorial"](https://github.com/grzesiek-galezowski/tdd-ebook)
+- Gojko Adzic "Specification by Example: How Successful Teams Deliver the Right Software", 2011
