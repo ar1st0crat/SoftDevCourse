@@ -20,7 +20,7 @@ namespace WebDriverBotApplication
             
             _driver.Navigate().GoToUrl(@"http://www.google.com");
 
-            IWebElement search = _driver.FindElement(By.Id("lst-ib"));
+            IWebElement search = _driver.FindElement(By.Name("q"));
 
             search.SendKeys("donnu");
             System.Threading.Thread.Sleep(250);         // for visualization
@@ -31,12 +31,11 @@ namespace WebDriverBotApplication
 
             WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
 
-            wait.Until(d => d.FindElement(By.ClassName("_Rm")));
+            wait.Until(d => d.FindElement(By.CssSelector("div.r > a")));
 
+            var entries = _driver.FindElements(By.CssSelector("div.r > a"));
 
-            var entries = _driver.FindElements(By.ClassName("_Rm"));
-
-            if (entries.Any(entry => entry.Text.Contains(addressToAppear)))
+            if (entries.Any(entry => entry.GetAttribute("href").Contains(addressToAppear)))
             {
                 Console.WriteLine("Google Test OK!");
             }

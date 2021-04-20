@@ -11,12 +11,12 @@ namespace WebDriverTest
     {
         private const string Url = @"http://www.seleniumhq.org/";
 
-        private const string SearchQueryFieldId = "q";
+        private const string SearchQueryFieldId = "search";
         private const string SearchButtonId = "submit";
 
         private readonly IWebDriver _driver;
 
-        [FindsBy(How = How.Id, Using = SearchQueryFieldId)]
+        [FindsBy(How = How.Name, Using = SearchQueryFieldId)]
         public IWebElement SearchQueryField;
 
         [FindsBy(How = How.Id, Using = SearchButtonId)]
